@@ -13,7 +13,7 @@
   },
   {
     "path": "build/js/prism-worker.js",
-    "limit": "6.75 kB"
+    "limit": "7.25 kB"
   },
   {
     "path": "build/js/svgo-worker.js",
