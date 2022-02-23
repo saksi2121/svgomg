@@ -15,7 +15,7 @@ const rollupReplace = require('@rollup/plugin-replace');
 const { terser: rollupTerser } = require('rollup-plugin-terser');
 
 const readJSON = async (filePath) => {
-  const content = await fs.readFile(filePath, 'utf-8');
+  const content = await fs.readFile(filePath);
   return JSON.parse(content);
 };
 
